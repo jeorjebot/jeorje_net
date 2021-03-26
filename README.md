@@ -6,7 +6,7 @@ A (lovely) website powered by [Hugo](https://gohugo.io) \
 > Testing in locale
 - hugo server -D 
 
-> Prepara il sito
+> Builda il sito in /public
 - hugo
 
 > Nuovo post da modello
