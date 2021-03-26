@@ -1,0 +1,5 @@
+# mac filesystem
+.DS_Store
+
+# build di hugo per deploy
+public/

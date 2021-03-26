@@ -1,0 +1,135 @@
+baseURL: "https://jeorje.net"
+title: Giorgio Rossi
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    #env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Giorgio's site
+    description: "Powered by Hugo"
+    author: Giorgio
+    #images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    #ShowShareButtons: true
+    disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "favicon_deer/favicon.ico"
+        favicon16x16: "favicon_deer/favicon-16x16.png"
+        favicon32x32: "favicon_deer/favicon-32x32.png"
+        apple_touch_icon: "favicon_deer/apple_touch_icon.png"
+        safari_pinned_tab: "favicon_deer/favicon.ico"
+
+    label:
+        text: "Home"
+        #icon: favicon_deer/apple_touch_icon.png
+        #iconHeight: 20
+
+    #profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Giorgio Rossi
+        subtitle: Software Engineer | DevOps Apprentice | AI Enthusiast
+        imageUrl: "profilo.jpg"
+        imageWidth: 240
+        imageHeight: 240
+        imageTitle: me
+        buttons:
+            - name: About me
+              url: about
+            #- name: Posts
+            #  url: posts
+            #- name: Tags
+            #  url: tags
+
+    # home-info mode
+    # homeInfoParams:
+    #     Title: "Hi there \U0001F44B"
+    #     Content: Welcome to my blog
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/jeorjebot/" 
+        - name: twitter
+          url: "https://twitter.com/jeorjebot/"
+        #- name: medium
+        #  url:  https://medium.com/@jeorje
+        - name: linkedin
+          url: "https://www.linkedin.com/in/giorgio-w-rossi/"
+
+    #analytics:
+    #    google:
+    #        SiteVerificationTag: "XYZabc"
+
+    # https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/content/posts/papermod/papermod-variables.md#cover
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: false # hide on single page
+
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects
+          weight: 20
+        - identifier: contacts
+          name: Contacts
+          url: /contacts
+          weight: 30
+        - identifier: memories
+          name: Posts
+          url: /posts/
+          weight: 40
+        
+        # - identifier: categories
+        #   name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - identifier: tags
+        #   name: tags
+        #   url: /tags/
+        #   weight: 20
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
