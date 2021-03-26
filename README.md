@@ -1,5 +1,5 @@
-# Jeorje dot net
-> My (lovely) website powered by [Hugo](https://gohugo.io)
+# My personal website
+A (lovely) website powered by [Hugo](https://gohugo.io)
 
 ## Comandi utili
 > Testing in locale
