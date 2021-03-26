@@ -6,7 +6,7 @@ draft: false
 
 **Linkedin** : [giorgio-w-rossi](https://www.linkedin.com/in/giorgio-w-rossi) 
 
-**Mail** : giorgio.rossi96 at yahoo.it
+**Mail** : [info@jeorje.net](mailto:info@jeorje.net)
 
 **Github** : [jeorjebot](https://github.com/jeorjebot)
 
