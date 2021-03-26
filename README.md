@@ -1,5 +1,6 @@
 # My personal website
-A (lovely) website powered by [Hugo](https://gohugo.io) - [www.jeorje.net](https://www.jeorje.net)
+A (lovely) website powered by [Hugo](https://gohugo.io) \
+[www.jeorje.net](https://www.jeorje.net)
 
 ## Comandi utili
 > Testing in locale
