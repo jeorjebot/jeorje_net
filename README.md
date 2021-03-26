@@ -1,4 +1,5 @@
-# Jeorle.net
+# Jeorje dot net
+> My (lovely) website powered by [Hugo](https://gohugo.io)
 
 ## Comandi utili
 > Testing in locale
