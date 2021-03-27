@@ -11,4 +11,5 @@ cover:
     relative: false
 ---
 
-E chi pensava fosse così semplice utilizzare [Hugo](https://gohugo.io)...
+This framework is awesome! \
+Try [Hugo](https://gohugo.io)!!!
