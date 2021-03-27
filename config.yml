@@ -58,7 +58,7 @@ params:
         imageTitle: me
         buttons:
             - name: About me
-              url: "https://www.jeorje.net/about"
+              url: "https://jeorje.net/about"
             #- name: Posts
             #  url: posts
             #- name: Tags
