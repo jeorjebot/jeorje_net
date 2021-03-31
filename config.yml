@@ -73,7 +73,7 @@ params:
         - name: github
           url: "https://github.com/jeorjebot/" 
         - name: twitter
-          url: "https://twitter.com/jeorjebot/"
+          url: "https://twitter.com/stocasticoo/"
         #- name: medium
         #  url:  https://medium.com/@jeorje
         - name: linkedin
